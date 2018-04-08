@@ -1,5 +1,7 @@
 1.2.x
 	Fixed missing brace in RealChutes patch
+	Added @category = none to RealChutes patch so RealChute can recategorize
+	them
 	Updated formatting
 	Removed spaces after commas in node_stack lines
 
