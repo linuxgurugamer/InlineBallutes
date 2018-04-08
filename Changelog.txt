@@ -1,0 +1,8 @@
+1.2.x
+	Fixed missing brace in RealChutes patch
+	Updated formatting
+	Removed spaces after commas in node_stack lines
+
+
+1.2.3
+	Last release by original author
