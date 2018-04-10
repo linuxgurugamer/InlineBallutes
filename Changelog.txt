@@ -1,3 +1,7 @@
+1.2.9.2
+	updaetd with last release file
+	Added 0.625 Ballute
+	
 1.2.3.1
 	Fixed missing brace in RealChutes patch
 	Added @category = none to RealChutes patch so RealChute can recategorize

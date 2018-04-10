@@ -18,7 +18,7 @@ MATERIAL
 	MODULE
 	{
 		name = RealChuteModule
-		caseMass = #$/../mass$
+		caseMass = #$/mass$
 		@caseMass *= .82 //caseMass of 1 in example is one half mass of 2.5 meter part. assuming this is desired relative mass of casemass.
 		timer = 0
 		mustGoDown = false
@@ -61,19 +61,6 @@ MATERIAL
 	!MODULE[ModuleDragModifier]{}
 	!MODULE[ModuleDragModifier]{}
 }
-
-@PART[InlineBallute062]:NEEDS[RealChute]
-{
-	@MODULE[RealChuteModule]
-	{
-		@PARACHUTE
-		{
-			@preDeployedDiameter = 14.66
-			@deployedDiameter = 14.66
-		}
-	}
-}
-
 
 @PART[InlineBallute125]:NEEDS[RealChute]
 {
