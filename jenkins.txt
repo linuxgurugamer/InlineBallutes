@@ -29,7 +29,7 @@
 
 
 # 3:SOURCEFILE, DESTDIR
-3:InlineBallutes.version,GameData/KermangeddonIndustries/InlineBallutes
+3:InlineBallutes.version,GameData/KermangeddonIndustries
 
 
 #
