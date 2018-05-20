@@ -1,8 +1,11 @@
+@PART[InlineBallute125]:NEEDS[RealChute]
+
+
 MATERIAL
 {
 	name = ZylonBallute
 	description = Much stronger and resistant to heat than Kevlar however prone to sunlight radiation thus is only one time use.
-?	areaDensity = 0.0002278
+	areaDensity = 0.0002278
 	dragCoefficient = 0.20
 	areaCost = 0.24
 	maxTemp = 1100
@@ -12,9 +15,11 @@ MATERIAL
 
 @PART[InlineBallute*]:NEEDS[RealChute]:BEFORE[FerramAerospaceResearch]
 {
-	MODULE?
+	MODULE
 	{
 		name = RealChuteModule
+		caseMass = #$/../mass$
+		@caseMass *= .82 //caseMass of 1 in example is one half mass of 2.5 meter part. assuming this is desired relative mass of casemass.
 		timer = 0
 		mustGoDown = false
 		cutSpeed = 1
@@ -57,16 +62,12 @@ MATERIAL
 	!MODULE[ModuleDragModifier]{}
 }
 
-@PART[InlineBallute062]:NEEDS[RealChute]:BEFORE[FerramAerospaceResearch]
+@PART[InlineBallute062]:NEEDS[RealChute]
 {
-	caseMass = #$/../mass$
-	@caseMass *= .82 //caseMass of 1 in example is one half mass of 2.5 meter part. assuming this is desired relative mass of casemass.
-
 	@MODULE[RealChuteModule]
 	{
 		@PARACHUTE
 		{
-
 			@preDeployedDiameter = 14.66
 			@deployedDiameter = 14.66
 		}
@@ -74,11 +75,8 @@ MATERIAL
 }
 
 
-@PART[InlineBallute125]:NEEDS[RealChute]:BEFORE[FerramAerospaceResearch]
+@PART[InlineBallute125]:NEEDS[RealChute]
 {
-	caseMass = #$/../mass$
-	@caseMass *= .82 //caseMass of 1 in example is one half mass of 2.5 meter part. assuming this is desired relative mass of casemass.
-
 	@MODULE[RealChuteModule]
 	{
 		@PARACHUTE
@@ -89,11 +87,8 @@ MATERIAL
 	}
 }
 
-@PART[InlineBallute250]:NEEDS[RealChute]:BEFORE[FerramAerospaceResearch]
+@PART[InlineBallute250]:NEEDS[RealChute]
 {
-	caseMass = #$/../mass$
-	@caseMass *= .82 //caseMass of 1 in example is one half mass of 2.5 meter part. assuming this is desired relative mass of casemass.
-
 	@MODULE[RealChuteModule]
 	{
 		@PARACHUTE
@@ -105,11 +100,8 @@ MATERIAL
 }
 
 
-@PART[InlineBallute375]:NEEDS[RealChute]:BEFORE[FerramAerospaceResearch]
+@PART[InlineBallute375]:NEEDS[RealChute]
 {
-caseMass = #$/../mass$
-	@caseMass *= .82 //caseMass of 1 in example is one half mass of 2.5 meter part. assuming this is desired relative mass of casemass.
-
 	@MODULE[RealChuteModule]
 	{
 		@PARACHUTE
@@ -122,18 +114,14 @@ caseMass = #$/../mass$
 
 
 
-@PART[InlineBallute500]:NEEDS[RealChute]:BEFORE[FerramAerospaceResearch]
+@PART[InlineBallute500]:NEEDS[RealChute]
 {
-	caseMass = #$/../mass$
-	@caseMass *= .82 //caseMass of 1 in example is one half mass of 2.5 meter part. assuming this is desired relative mass of casemass.
-
 	@MODULE[RealChuteModule]
 	{
 		@PARACHUTE
 		{
 			@preDeployedDiameter = 147
-			?@deployedDiameter = 147
+			@deployedDiameter = 147
 		}
 	}
 }
-
