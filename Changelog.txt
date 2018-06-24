@@ -1,3 +1,8 @@
+1.2.9.4
+	Split patch in to a FAR and nonFAR patch
+	Fixed syntax errors in patch
+	Added Needs to the material stanza
+
 1.2.9.3
 	Changed the min pressure to be 0.01 in all Ballutes
 	Added tags 
