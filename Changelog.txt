@@ -1,3 +1,6 @@
+1.2.9.5
+        Fixed syntax errors in FAR patch
+	
 1.2.9.4
 	Split patch in to a FAR and nonFAR patch
 	Fixed syntax errors in patch
