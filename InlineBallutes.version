@@ -1,7 +1,7 @@
 {
   "NAME": "InlineBallutes",
-  "URL": "https://raw.githubusercontent.com/linuxgurugamer/InlineBallutes/master/InlineBallutes.version",
-  "DOWNLOAD": "https://github.com/riocrokite/InlineBallutes/releases",
+  "URL": "http://ksp.spacetux.net/avc/InlineBallutes",
+  "DOWNLOAD": "https://github.com/linuxgurugamer/InlineBallutes/releases",
   "GITHUB": {
     "USERNAME": "linuxgurugamer",
     "REPOSITORY": "InlineBallutes"
@@ -10,7 +10,7 @@
     "MAJOR": 1,
     "MINOR": 2,
     "PATCH": 9,
-    "BUILD": 5
+    "BUILD": 6
   },
   "KSP_VERSION": {
     "MAJOR": 1,
