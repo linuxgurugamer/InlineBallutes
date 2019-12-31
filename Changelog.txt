@@ -1,5 +1,11 @@
 ChangeLog
 
+1.2.11.2
+    Thanks to @zer0kerbal for these:
+        Fixed bulkhead profile for the 1.875 size
+        Removed extra "scale" in the 1.875 size
+    All extra "scale" lines were removed from the other parts as well
+
 1.2.11.1
     Updated drag values of all Ballutes (they were all set to 500)
     
