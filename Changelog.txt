@@ -1,5 +1,8 @@
 ChangeLog
 
+1.2.11.1
+    Updated drag values of all Ballutes (they were all set to 500)
+    
 1.2.11
     Added 1.875m size
     Fixed category being set to none when RealChute is installed
