@@ -1,5 +1,11 @@
 ChangeLog
 
+1.2.11
+    Added 1.875m size
+    Fixed category being set to none when RealChute is installed
+    Reduced size of 0.625 version attach nodes
+	Changed the tech required node of the 4 largest ballutes
+    
 1.2.10
 	Updated for KSP 1.8
 
