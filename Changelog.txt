@@ -1,5 +1,11 @@
 ChangeLog
 
+1.2.11.3 
+	Thanks to @zer0Kerbal for this:
+		Removed extraneous "scale = 1" from the Ballute250.cfg
+	Thanks to @eberkain for this:
+		Added NEEDS to configs to eliminate errors when loading a stock game
+
 1.2.11.2
     Thanks to @zer0kerbal for these:
         Fixed bulkhead profile for the 1.875 size
