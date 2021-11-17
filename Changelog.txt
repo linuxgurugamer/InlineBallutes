@@ -1,5 +1,9 @@
 ChangeLog
 
+1.2.11.4
+	Added a "FOR" to one of the patches to allow other mods to reference this
+	by name (inlineBallutes) rather than the top level dir
+
 1.2.11.3 
 	Thanks to @zer0Kerbal for this:
 		Removed extraneous "scale = 1" from the Ballute250.cfg
