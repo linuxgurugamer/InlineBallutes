@@ -1,5 +1,8 @@
 ChangeLog
 
+1.2.11.5
+	Updated version file to use github for new version info
+	
 1.2.11.4
 	Added a "FOR" to one of the patches to allow other mods to reference this
 	by name (inlineBallutes) rather than the top level dir
